@@ -103,7 +103,7 @@ struct Point {
 		return left;
 	}
 
-	friend Point& operator+=(Point& left, const Point& right) {
+	friend Point& operator-=(Point& left, const Point& right) {
 		left.x -= right.x;
 		left.y -= right.y;
 		return left;
